@@ -1,0 +1,53 @@
+body{
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #867183;
+}
+.heading-div {
+    background-color: #43143d;
+}
+.heading{
+    font-family: 'Arial Narrow Bold';
+    text-align: center;
+    padding: 30px;
+}
+#certificate{
+    color: #43143d;
+    text-decoration:overline;
+    font-weight: bold;
+}
+.footer{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #5f4f5c;
+    padding: 30px;
+} 
+.footer-up{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #867183;
+} 
+.Links:hover{
+color: #43143d;
+cursor: pointer;
+transition: color 0.3s ease; 
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #43143d;
+    transition: color 0.3s ease;  
+}
+li{
+    cursor: pointer;
+}
+.color{
+    color: #43143d;
+}
+.ImageContent{
+background-color: #43143d;
+}

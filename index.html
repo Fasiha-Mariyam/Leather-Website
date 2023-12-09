@@ -6,7 +6,22 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="./images/Zehnab fashify logo.png" type="image/x-icon">
+    <script src="./app.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>ZenHab Fashify-Pakistans Best Leather Manufacturers and Expoters</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            /* margin: 50px; */
+        }
+        canvas {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
 </head>
 <body>
   <!-- #080d0b color for navbar -->
@@ -35,16 +50,16 @@
                 <a class="nav-link active text-white" aria-current="page" href="./ourproduct.html">Our Products</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link active text-white" aria-current="page" href="#">Quality Control</a>
+                <a class="nav-link active text-white" aria-current="page" href="./Quality control.html">Quality Control</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link active text-white" aria-current="page" href="#">Sustainability</a>
+                <a class="nav-link active text-white" aria-current="page" href="./sustainability.html">Sustainability</a>
               </li>
               <li class="nav-item mx-3">
                 <a class="nav-link active text-white" aria-current="page" href="./certfication.html">Certification</a>
               </li>
               <li class="nav-item mx-3">
-                <a class="nav-link active text-white" aria-current="page" href="#">Contact Us</a>
+                <a class="nav-link active text-white" aria-current="page" href="./contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -52,6 +67,242 @@
       </nav>
     </div>
   </nav>
+<!-- moving background -->
+  <div class=" text-center movingGif">
+    <img src="./images/Zehnab fashify logo.png" alt="">
+   </div>
+
+   <!-- Introduction -->
+   <div class="container-fluid mb-5">
+    <div class="row  p-1 mt-5  ">
+        <div data-aos="fade-right" class="col-md-6 ">
+            <h2 class="mb-2 color">INTRODUCTION</h2>
+            <div class="mt-4  ">
+                <p>ZenHab Fashify is one of the leading manufacturers of leather apparels in Pakistan.</p>
+                <p class="mt-3 ">We produce leather garment from raw skin from own tannery to final product to
+                    fashion brands and
+                    retailers In Europe . such as Jackets , Dresses , shirts , skirts and trousers..</p>
+                <p>Sincere International is a Govt of Pakistan recognised export company. Our customer include some
+                    of the leading fashion brands and retail chain stores in Scandinavia / Europe and Canada. We
+                    work in wide varieties of skin which include Lamb, Goat, Cow, and Buffalo.</p>
+
+                <button type="button" class="btn btn-outline-dark  mt-4 p-2 mb-5 " onclick="viewMore()">VIEW
+                    MORE</button>
+            </div>
+        </div>
+
+        <div data-aos="fade-left" class="col-md-6 ">
+            <img src="./images/intro.jpg" alt="" class="img-fluid" width="100%">
+        </div>
+
+    </div>
+</div>
+
+<!-- SALIENT FEATURES -->
+<div class="container-fluid  salient-features mb-5 ">
+  <div class="row mt-5 ">
+      <div data-aos="fade-up" class="col-md-8 text-white mt-5 mb-4 ">
+          <h1 class="color">SALIENT FEATURES</h1>
+          <div class="mt-3 mb-5">
+              <ul>
+                  <li class="list-group m-2">* From simple to luxurious fashion variations</li>
+                  <li class="list-group m-2">* one of the most desirable textile products due to its durability,</li>
+                  <li class="list-group m-2">* Part of the B2C business's distribution network.</li>
+                  <li class="list-group m-2">* Corporate Social Responsibility (CSR) that is focused on services</li>
+                  <li class="list-group m-2">* Novel Material Advancements</li>
+                  <li class="list-group m-2">* Techniques for Sustainable and Responsibly Washing</li>
+                  <li class="list-group m-2">* Adaptable MOQ.</li>
+                  <li class="list-group m-2">* Rapid production development</li>
+                  <li class="list-group m-2">* Acceleration to Market</li>
+              </ul>
+          </div>
+      </div>
+      <div data-aos="fade-up" class="col-md-4  mb-5 mt-5 ">
+          <img src="./images/lather cutting.jpg" alt="" width="100%" class="img-fluid mt-5">
+      </div>
+
+  </div>
+
+</div>
+
+    <!-- Video Our strategy -->
+    <div class="container-fluid mb-5  mt-5">
+      <div class="row  p-1 ">
+          <div data-aos="zoom-in" class="col-md-6 text-center mt-3 mb-4 ">
+              <video width="80%" height="350px" controls autoplay style="background-color: rgb(202, 186, 186);" controls poster="./images/Zehnab fashify logo.png">
+                  <source src="https://youtu.be/YJLtujrV63I?feature=shared" type="video/mp4">
+              </video>
+          </div>
+          <div data-aos="zoom-out" class="col-md-6  ">
+              <h1  class="mb-2 color">OUR STRATEGY</h1>
+              <p class="mb-2 mt-2">In order to provide our clients with the newest fashion items and designs, we have
+                  a specialized design
+                  studio full of incredibly talented designers who create and develop new products, techniques, and
+                  treatments.</p>
+
+              <h1 class="mb-2  color">MARKET</h1>
+              <p class="mb-2 mt-2">Among our clients are some of the top retail chains and fashion labels in
+                  Scandinavia and throughout Europe.
+              </p>
+              <h1 class="mb-2  color">VISION
+              </h1>
+              <p class="mb-2 mt-2  color">A true international endeavor would tend to every aspect of quality, from client
+                  needs and satisfaction to process improvements that are coherent and human resource training that
+                  produces efficiency through a never-ending improvement process.
+              </p>
+          </div>
+      </div>
+  </div>
+
+   <!-- OUR PRODUCTS CAROUSEL-->
+  <div class="container-fluid background mt-3 mb-5">
+    <div class="container  text-center  headings">
+        <span id="contact">Our</span> &nbsp;<span id="us">Products</span>
+    </div>
+    <div class="container-fluid mb-5">
+      <!-- CAROUSEL -->
+      <div id="myCarousel" class="carousel slide container " data-bs-ride="carousel">
+          <div class="carousel-inner w-100 ">
+              <div class="carousel-item active">
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i10.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i14.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i29.webp">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i19.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i3.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i4.jpg">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i6.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i9.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i5.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i11.webp">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i17.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i24.jpg">
+                      </div>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i23.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i25.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i2.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i13.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i27.jpg">
+                      </div>
+                  </div>
+                  <div class="col-md-3">
+                      <div class="card card-body">
+                          <img class="img-fluid" src="./images/i30.jpg">
+                      </div>
+                  </div>
+              </div>
+             
+          </div>
+
+          <button class="carousel-control-prev "  type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon  bg-secondary" aria-hidden="true"></span>
+              <span class="visually-hidden ">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon   bg-secondary" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </div>
+  <div class="container text-center mt-5">
+    <button type="button" class="btn  mt-5 mb-5 p-2 view-pro" onclick="viewMorePoducts()">VIEW
+        MORE</button>
+</div>
+</div>
+
+<!-- COMPANY GROWTH -->
+
+<div class="growth">
+    <div class="container text-center fs-1">
+        <!-- <h1> Company Growth</h1> -->
+        <span class="text-dark">Company</span><span id="us">Growth</span>
+
+    </div>
+    <div class="container-fluid text-center mt-4">
+        <p>We have buildings that can expand to double capacity if our customers need a higher capacity level because of our flexible production space.The degree of customer satisfaction is unrestricted, despite the fact that our current production capacity is restricted to 20,000–25,000 pieces per month.</p>
+    <b>As a result, the company's consistent annual growth rate also reflects satisfaction.</b>
+    </div>
+
+    <!-- CHART  -->
+    <div  class="char-box">
+        <canvas id="myChart">
+
+        </canvas>
+      </div>
+                  
+
+</div>
+
+
+
 
 <!-- footer -->
 <div class="container-fluid footer-up text-white p-3 pb-5 pt-5">
@@ -68,10 +319,10 @@
               <li class="list-group  Links  mb-3" id="certificate">Home</li>
               <li class="list-group  Links  mb-3"><a href="./aboutus.html">About Us</a></li>
               <li class="list-group  Links  mb-3" ><a href="./ourproduct.html">Our Product</a></li>
-              <li class="list-group  Links  mb-3">Quality Control</li>
-              <li class="list-group  Links  mb-3">Sustainability</li>
+              <li class="list-group  Links  mb-3"><a href="./Quality control.html">Quality Control</a></li>
+              <li class="list-group  Links  mb-3"><a href="./sustainability.html">Sustainability</a></li>
               <li class="list-group  Links  mb-3"><a href="./certfication.html"> Certification</a></li>
-              <li class="list-group  Links  mb-3">Contact Us</li>
+              <li class="list-group  Links  mb-3"><a href="./contact.html">Contact Us</a></li>
             </ul>
       </div>
       <div class="col-md-4">
@@ -106,6 +357,44 @@
   Copyright © Sincere International 2021. All rights reserved
 </div>
 
+    <script>
+        var ctx = document.getElementById('myChart').getContext('2d');
+        
+        var data = {
+    labels:['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+    datasets: [{
+        label: 'Sales Data',
+        data: [50, 80, 60, 90, 75,100],
+        backgroundColor:['rgba(255, 0, 0, 1)',
+        'rgba(0, 0, 255, 1)',
+            'rgba(255, 255, 0, 1)   ',
+            'rgba(0, 128, 0, 1)',
+            'rgba(128, 0, 128, 1)',
+            'rgba(255, 165, 0, 1)'],
+        borderColor: 'rgba(50, 50, 50, 1)',
+        borderWidth: 1
+    }]
+};
+
+        var options = {
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        };
+
+        var myChart = new Chart(ctx, {
+            type: 'bar',
+            data: data,
+            options: options
+        });
+    </script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

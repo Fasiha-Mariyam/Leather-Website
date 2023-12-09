@@ -210,7 +210,7 @@ backdrop-filter: blur(5px);
     align-items: center;
     justify-content: center;
     height: 170px;
-    background-image: url('./Images/images4.jpg');
+    background-image: url('./images/images4.jpg');
     background-image: no-repeat center center;
     background-size: cover;
     transition: transform 0.8s ease;
@@ -521,7 +521,7 @@ cursor: pointer;
 .movingGif {
     overflow: hidden;
     height: 60vh;
-    background-image: url('./Images/b4.png');
+    background-image: url('./images/b4.png');
     background-position: center center;
     background-size: cover;
     background-attachment: fixed; /* Add this line */
@@ -549,7 +549,7 @@ cursor: pointer;
     .movingGif {
         overflow: hidden;
         height: 60vh;
-        background-image: url('./Images/bg3.png');
+        background-image: url('./images/bg3.png');
         background-position: center center;
         background-size: cover;
         background-attachment: fixed; /* Add this line */
@@ -572,7 +572,7 @@ cursor: pointer;
     .movingGif {
         overflow: hidden;
         height: 60vh;
-        background-image: url('./Images/b4.png');
+        background-image: url('./images/b4.png');
         background-position: center center;
         background-size: cover;
         background-attachment: fixed; /* Add this line */
